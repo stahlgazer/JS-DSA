@@ -1,3 +1,4 @@
+// find the needle in the haystack
 function binary_search(haystack: number[], needle: number): boolean {
   let lo = 0;
   let high = haystack.length - 1;
