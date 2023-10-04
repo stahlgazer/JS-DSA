@@ -1,1 +1,1 @@
-// TypeScript DSA examples and tests
+// TypeScript DSA examples and notes

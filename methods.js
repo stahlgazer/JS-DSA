@@ -1,6 +1,6 @@
 /* Methods/Properties cheatsheet and definitions
 
-Types - string, Number, Boolean, Object: {}, Null, Undefined, Symbol, BigInt, Math + Date (objects)
+Types - string, Number, Boolean, Object: {}, Null, Undefined, Symbol, BigInt, Math, Date
 
 Loops:
 for (traditional)
