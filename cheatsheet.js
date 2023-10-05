@@ -10,7 +10,7 @@ while (executes if property is true)
 do...while (executes then checks property if true)
 
 String:
-None of the methods and properties you mentioned for strings are mutative. Strings in JavaScript are immutable.
+None of the methods and properties for strings are mutative. Strings in JavaScript are immutable.
 
 length: This property returns the length of the string but does not change the string itself.
 toUpperCase(): This method returns a new string with all characters converted to uppercase.
@@ -26,6 +26,8 @@ pop(): Removes the last element from an array, modifying the original array.
 shift(): Removes the first element from an array, modifying the original array.
 unshift(): Adds one or more elements to the beginning of an array, modifying the original array.
 splice(): Changes the contents of an array by removing, replacing, or adding elements, thus mutating the original array.
+sort(): Sorts the elements of an array in place but does not create a new array.
+reverse(): Reverses the order of elements in an array in place.
 
 Arrays - Non-Mutative:
 filter(): Returns a new array with elements that satisfy a provided condition.
@@ -34,8 +36,6 @@ join(): Joins all elements of an array into a string and returns the string.
 toString(): Returns a string representing the array.
 forEach(): Iterates through the array but does not modify the array.
 map(): Returns a new array with the results of applying a provided function to each element.
-sort(): Sorts the elements of an array in place but does not create a new array.
-reverse(): Reverses the order of elements in an array in place.
 findIndex(): Returns the index of the first element in the array that satisfies a provided condition.
 indexOf(): Returns the first index at which a given element is found.
 includes(): Checks whether an array includes a certain element.
