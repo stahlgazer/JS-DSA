@@ -1,15 +1,15 @@
 // find the needle in the haystack
 function binary_search(haystack: number[], needle: number): boolean {
-  let lo = 0;
+  let low = 0;
   let high = haystack.length - 1;
 
-  while (lo <= high) {
-    const mid = Math.floor((lo + high) / 2); // find the middle
+  while (low <= high) {
+    const mid = Math.floor((low + high) / 2); // find the middle
 
     if (haystack[mid] === needle) {
       return true; // Return true if the target element is found
     } else if (needle > haystack[mid]) {
-      lo = mid + 1; // needle higher than mid, make mid + 1 the new low
+      low = mid + 1; // needle higher than mid, make mid + 1 the new low
     } else {
       high = mid - 1; // needle lower than mid, make mid - 1 the new high
     }
