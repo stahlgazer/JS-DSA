@@ -1,5 +1,4 @@
 /* Methods/Properties cheatsheet and definitions
-
 Types - string, Number, Boolean, Object: {}, Null, Undefined, Symbol, BigInt, Math, Date
 
 Loops:
@@ -9,16 +8,16 @@ for...of (values of iterables ex: arrays, strings)
 while (executes if property is true)
 do...while (executes then checks property if true)
 
-String:
-None of the methods and properties for strings are mutative. Strings in JavaScript are immutable.
+String - immutable:
+None of the methods and properties for strings are mutative except for split().
 
 length: This property returns the length of the string but does not change the string itself.
 toUpperCase(): This method returns a new string with all characters converted to uppercase.
 toLowerCase(): This method returns a new string with all characters converted to lowercase.
 indexOf(): This method returns the index of the first occurrence of a specified substring.
 slice(): This method returns a new string containing a portion of the original string.
-split(): This method returns an array of substrings based on a specified delimiter.
 from(): This method creates a new string from an array-like or iterable object.
+MUTATES - split(): This method returns an array of substrings based on a specified delimiter.
 
 Arrays - Mutative:
 push(): Adds one or more elements to the end of an array, modifying the original array.
