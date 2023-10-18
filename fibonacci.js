@@ -1,4 +1,4 @@
-// Give a number 'n', find the first 'n' elements of the Fibonacci sequence.
+// Given a number 'n', find the first 'n' elements of the Fibonacci sequence.
 // Fibonacci in math is a sequence in which each number is the sum of the two preceeding nums that starts with 0 and 1.
 // fib(2)=[0,1] fib(3)=[0,1,1], fib(5)=[0,1,1,2,3]
 
